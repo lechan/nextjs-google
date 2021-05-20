@@ -1,0 +1,51 @@
+.inputWrapper {
+  position: relative;
+  width: 560px;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 16px;
+  border-radius: calc(0.5 * 44px);
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  font-size: 16px;
+}
+
+.inputWrapper input {
+  background-color: #fff;
+  border: none;
+  border-radius: calc(0.5 * 44px);
+  color: #333;
+  font-family: inherit;
+  font-size: inherit;
+  height: 100%;
+  outline: none;
+  padding-inline-end: 44px;
+  padding-inline-start: 52px;
+  position: relative;
+  width: 100%;
+}
+
+.inputWrapper::before {
+  content: '';
+  height: 100%;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 32px;
+  background: url('../assets/logo/search.svg') no-repeat center;
+  z-index: 1;
+}
+
+.inputWrapper button {
+  background: url('../assets/logo/googlemic_clr_24px.svg') no-repeat center;
+  background-size: 21px 21px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 100%;
+  outline: none;
+  padding: 0;
+  pointer-events: auto;
+  position: absolute;
+  right: 16px;
+  width: 26px;
+}

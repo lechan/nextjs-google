@@ -1,0 +1,16 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
+  position: relative;
+  z-index: 1;
+  font-family: Roboto, 'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+}
+.logo {
+  width: 272px;
+  height: 92px;
+  background: url('../assets/logo/google_logo.svg') no-repeat center;
+  margin-top: 200px;
+  margin-bottom: 38px;
+}
