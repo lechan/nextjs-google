@@ -121,8 +121,8 @@ export default function linkList() {
   })
 
   useEffect(() => {
-    const storageList = localStorage.getItem('shortcutList') || []
-    setList(JSON.parse(storageList))
+    const storageList = localStorage.getItem('shortcutList')
+    setList(storageList ? JSON.parse(storageList) : [])
   }, [])
 
   return (
